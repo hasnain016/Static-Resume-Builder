@@ -1,0 +1,72 @@
+body{
+    background-color: bisque;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-container {
+    background-color: paleturquoise;
+    height:100%vph;
+    width: 650px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.Personal-info{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 40px;
+}
+.Information-box a{
+    text-decoration: none;
+}
+h1{
+    color: black;
+    font-size: 3rem;
+    box-shadow: 60px -16px rgba(84, 129, 225, 0.411);
+}
+h2{
+    color: rgba(24, 27, 212, 0.845);
+    box-shadow: 0px 0px red, -.5em 0 .4em rgb(20, 17, 1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+.education, .skills, .work-experience{
+background-color: rgb(212, 236, 228);
+border: 1px solid black;
+border-radius: 10px;
+cursor: pointer;
+padding-left:20px ;
+box-shadow: 0px 12px rgb(251, 251, 251), -1em 0 .4em rgba(45, 128, 0, 0.318);
+}
+#Picture{
+    padding-top:50px ;
+}
+
+.profile-picture {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #0e3b4262;
+    color: black;
+    border:2px solid brown;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color:wheat;
+    border: 2px solid yellow;
+}
